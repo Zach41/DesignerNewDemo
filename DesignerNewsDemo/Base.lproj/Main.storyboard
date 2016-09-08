@@ -44,6 +44,8 @@
                                 </label>
                                 <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="XQ2-4f-JBU">
                                     <rect key="frame" x="100.5" y="10" width="39" height="37"/>
+                                    <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="currentPageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </pageControl>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -58,14 +60,37 @@
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <keyCommands>
+                        <keyCommand/>
+                    </keyCommands>
                     <connections>
                         <outlet property="menu" destination="KLm-Nb-fMP" id="Yry-J4-vXa"/>
+                        <outlet property="navigationTitle" destination="3Ft-vI-578" id="acm-oD-bpR"/>
+                        <outlet property="pageIndicator" destination="XQ2-4f-JBU" id="iTM-yc-JUw"/>
                         <segue destination="SDY-to-xeF" kind="presentation" identifier="MenuSegue" animates="NO" modalPresentationStyle="overCurrentContext" id="hen-9u-dzj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1046" y="-343"/>
+        </scene>
+        <!--Stories View Controller-->
+        <scene sceneID="gfC-kz-G4C">
+            <objects>
+                <viewController storyboardIdentifier="StoriesViewController" id="33m-9j-jMW" customClass="StoriesViewController" customModule="DesignerNewsDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vtz-f9-XhI"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Ob-uP-dIM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C3X-59-QF7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jYR-8X-mhb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1708" y="-343"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="rZJ-2T-kXS">
@@ -231,6 +256,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MTJ-7N-DVk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="306" y="-343"/>
+        </scene>
+        <!--RecentViewController-->
+        <scene sceneID="umc-4F-ffh">
+            <objects>
+                <viewController storyboardIdentifier="RecentViewController" id="XFo-J4-6Dd" userLabel="RecentViewController" customClass="StoriesViewController" customModule="DesignerNewsDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zTr-4U-3CC"/>
+                        <viewControllerLayoutGuide type="bottom" id="EMf-B1-rTJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e9c-cx-C9C">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cPy-Kb-psg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2356" y="-343"/>
+        </scene>
+        <!--SearchViewController-->
+        <scene sceneID="8OZ-Dz-8vU">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" id="zd9-Oc-o7f" userLabel="SearchViewController" customClass="StoriesViewController" customModule="DesignerNewsDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="foe-PR-zg3"/>
+                        <viewControllerLayoutGuide type="bottom" id="LbV-67-U27"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nNG-1Z-KDX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oa0-4u-eDJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3074" y="-343"/>
         </scene>
     </scenes>
     <resources>

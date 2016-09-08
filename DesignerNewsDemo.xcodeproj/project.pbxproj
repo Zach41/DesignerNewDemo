@@ -15,6 +15,7 @@
 		928EC67F1D7DA57000282BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928EC67E1D7DA57000282BF7 /* Assets.xcassets */; };
 		928EC6821D7DA57000282BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928EC6801D7DA57000282BF7 /* LaunchScreen.storyboard */; };
 		928EC68B1D7DAD1700282BF7 /* MenuControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928EC68A1D7DAD1700282BF7 /* MenuControl.swift */; };
+		9298F4A61D8189BC00DBAEE1 /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9298F4A51D8189BC00DBAEE1 /* StoriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		928EC6811D7DA57000282BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		928EC6831D7DA57000282BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		928EC68A1D7DAD1700282BF7 /* MenuControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuControl.swift; path = Views/MenuControl.swift; sourceTree = "<group>"; };
+		9298F4A51D8189BC00DBAEE1 /* StoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoriesViewController.swift; path = ViewControllers/StoriesViewController.swift; sourceTree = "<group>"; };
 		BAEFB000F382C719C5E3BE41 /* Pods-DesignerNewsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignerNewsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignerNewsDemo/Pods-DesignerNewsDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 			children = (
 				9273552D1D802AD200E99FFC /* MenuViewController.swift */,
 				928EC6791D7DA57000282BF7 /* ContainerController.swift */,
+				9298F4A51D8189BC00DBAEE1 /* StoriesViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9298F4A61D8189BC00DBAEE1 /* StoriesViewController.swift in Sources */,
 				928EC67A1D7DA57000282BF7 /* ContainerController.swift in Sources */,
 				928EC6781D7DA57000282BF7 /* AppDelegate.swift in Sources */,
 				928EC68B1D7DAD1700282BF7 /* MenuControl.swift in Sources */,
