@@ -21,7 +21,7 @@ class MenuViewController: UIViewController {
 
     weak var delegate : MenuItemClickedDelegate?
     
-    @IBOutlet weak var dialogView: SpringView!
+    @IBOutlet weak var dialogView: SqueezeDownView!
     
     @IBOutlet weak var topStoriesBtn: UIButton!
     @IBOutlet weak var recentBtn: UIButton!
@@ -35,7 +35,7 @@ class MenuViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
+        dialogView.squeezeDown(){}
     }
 
     override func didReceiveMemoryWarning() {
@@ -70,17 +70,10 @@ class MenuViewController: UIViewController {
         closeAnimation()
     }
     
-    // MARK: private
-    private func animateDialog() {
-        dialogView.animation = "pop"
-        dialogView.animate()
-    }
     
     private func closeAnimation() {
-        dialogView.animation = "fall"
-        dialogView.animate()
-        dialogView.animateNext() {
-            self.dismissViewControllerAnimated(false, completion: nil)
+        dialogView.fallDown() {
+            self.dismissViewControllerAnimated(true, completion: nil)
         }
     }
 }
