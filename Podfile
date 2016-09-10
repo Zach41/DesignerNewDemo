@@ -9,5 +9,6 @@ target 'DesignerNewsDemo' do
     pod 'Alamofire'
     pod 'DTCoreText'
     pod 'TPKeyboardAvoiding'
+    pod 'SnapKit'
 end
 

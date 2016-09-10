@@ -87,6 +87,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-DesignerNewsDemo/Alamofire.framework"
   install_framework "Pods-DesignerNewsDemo/DTCoreText.framework"
   install_framework "Pods-DesignerNewsDemo/DTFoundation.framework"
+  install_framework "Pods-DesignerNewsDemo/SnapKit.framework"
   install_framework "Pods-DesignerNewsDemo/Spring.framework"
   install_framework "Pods-DesignerNewsDemo/TPKeyboardAvoiding.framework"
 fi
@@ -94,6 +95,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-DesignerNewsDemo/Alamofire.framework"
   install_framework "Pods-DesignerNewsDemo/DTCoreText.framework"
   install_framework "Pods-DesignerNewsDemo/DTFoundation.framework"
+  install_framework "Pods-DesignerNewsDemo/SnapKit.framework"
   install_framework "Pods-DesignerNewsDemo/Spring.framework"
   install_framework "Pods-DesignerNewsDemo/TPKeyboardAvoiding.framework"
 fi

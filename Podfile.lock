@@ -11,12 +11,14 @@ PODS:
     - DTFoundation/Core
   - DTFoundation/UIKit (1.7.10):
     - DTFoundation/Core
+  - SnapKit (0.20.0)
   - Spring (1.0.3)
   - TPKeyboardAvoiding (1.3)
 
 DEPENDENCIES:
   - Alamofire
   - DTCoreText
+  - SnapKit
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
   - TPKeyboardAvoiding
 
@@ -34,6 +36,7 @@ SPEC CHECKSUMS:
   Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
   DTCoreText: 3ea8bba23dd2141ba18adb227a7dd33a822df1c4
   DTFoundation: 3b6b1b817d2a7fb02e7eaf2596c922a68145bd43
+  SnapKit: 5fce3c1bbbf1fbd31de9aa92f33eb9fa03f15650
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
   TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
 
